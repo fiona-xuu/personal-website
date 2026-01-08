@@ -121,7 +121,7 @@ const HeroSection = () => {
                   size="lg"
                   className="rounded-full border-[#F0D3D3] text-[#D29C9E] hover:bg-[#F5BFC0]/10 px-10 py-7 text-xl"
                 >
-                  view resume →
+                  view my resume →
                 </Button>
               </a>
             </div>

@@ -7,17 +7,25 @@ const Projects = () => {
   const projects = [
     {
       id: "01",
+      title: "moodi",
+      technologies: "TypeScript, React, TSX, Vite, Presage SDK, Google Gemini API, Supabase",
+      description: "Real-time AI-powered health insights app for real-time biometric data tracking.",
+      status: "View Project",
+      link: "https://github.com/fiona-xuu/moodi",
+    },
+    {
+      id: "02",
       title: "stockl",
       technologies: "TypeScript, ReactJS, CSS, Gadget",
-      description: "Full-stack web application for real-time stock tracking",
+      description: "Full-stack web app for real-time stock tracking",
       status: "View Project",
       link: "https://github.com/fiona-xuu/stockll",
     },
     {
-      id: "02",
-      title: "starCheck",
-      technologies: "JavaScript, HTML, CSS",
-      description: "Responsive to-do list application - SheHacks winner",
+      id: "03",
+      title: "PBSN",
+      technologies: "TypeScript, ReactJS, CSS",
+      description: "Western University's largest business club's official website",
       status: "View Project",
       link: "https://github.com/fiona-xuu/starCheck",
     },
@@ -58,7 +66,7 @@ const Projects = () => {
                   }`}
               >
                 {/* project details */}
-                <div className="lg:px-6">
+                <div className="lg:px-6 max-w-[44%] break-words">
                   <h3 className="text-xl lg:text-2xl font-semibold black mb-1 transition-colors duration-200 ">
                     {project.title}
                   </h3>
@@ -89,16 +97,18 @@ const Projects = () => {
             ))}
           </div>
 
-          {/* View All Button
-          <div className="mt-12 text-center">
-            <Button
-              variant="outline"
-              size="lg"
-              className="rounded-full border-pink-400 text-pink-500 hover:bg-pink-400 hover:text-white"
-            >
-              View All Projects
-            </Button>
-          </div> */}
+          {/* View All Button */}
+          <div className="mt-16 text-center">
+            <a href="https://github.com/fiona-xuu?tab=repositories" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                size="lg"
+                className="rounded-full border-[#F0D3D3] text-[#D29C9E] hover:bg-[#F5BFC0]/10 px-10 py-7 text-xl"
+              >
+                view all my projects →
+              </Button>
+            </a>
+          </div> 
         </div>
       </div>
     </section>
