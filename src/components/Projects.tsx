@@ -103,7 +103,7 @@ const Projects = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="rounded-full border-[#F0D3D3] text-[#D29C9E] hover:bg-[#F5BFC0]/10 px-10 py-7 text-xl"
+                className="rounded-full bg-white/80 border-[#F0D3D3] text-[#D29C9E] hover:bg-[#F5BFC0]/10 px-10 py-7 text-xl"
               >
                 view all my projects →
               </Button>
