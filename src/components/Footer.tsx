@@ -6,7 +6,7 @@ const Footer = () => {
     { href: "https://github.com/fiona-xuu", icon: Github, label: "GitHub" },
     { href: "https://linkedin.com/in/fiona-xu06", icon: Linkedin, label: "LinkedIn" },
     { href: "mailto:fionaxu.99@gmail.com", icon: Mail, label: "Email" },
-    { href: "https://drive.google.com/file/d/1LZkxdw1FBZCb4KvgwG9uacPQV4jz19qM/view?usp=sharing", icon: FileText, label: "Resume" }
+    { href: "https://drive.google.com/file/d/1W-Eli2tOKThShNhn-arm9NCoX7Gbx25v/view?usp=sharing", icon: FileText, label: "Resume" }
   ];
   return (
     <section className="bg-[#F5BFC0]/70 py-7 px-24 rounded-t-[50px]">
