@@ -27,7 +27,7 @@ const Projects = () => {
       technologies: "TypeScript, ReactJS, CSS",
       description: "Western University's largest business club's official website",
       status: "View Project",
-      link: "https://github.com/fiona-xuu/starCheck",
+      link: "https://github.com/fiona-xuu/pbsn-website",
     },
   ];
 

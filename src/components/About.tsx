@@ -48,7 +48,7 @@ const About = () => {
                 <div className="absolute inset-0 bg-[#FED6D7]/30"></div>
               </div>
             </div> */}
-            <p className="relative z-20">i'm a student at <span className="italic text-white font-light">western university</span> pursuing <span className="italic text-white font-light">computer science</span> (hsp) with ivey aeo.</p>
+            <p className="relative z-20">i'm a student at <span className="italic text-white font-light">western university</span> pursuing a <span className="italic text-white font-light">computer science</span> (hsp) and <span className="italic text-white font-light">ivey business</span> (hba) dual degree.</p>
             <p className="font-thin relative z-20">whether it's learning a <span className="italic font-extralight">new language</span> or diving down a rabbit hole of <span className="italic font-extralight">unusual hobbies</span>, you'll always find me <span className="italic font-extralight">pushing my limits</span> and <span className="italic font-extralight">keeping myself busy.</span></p>
           </div>
         </div>
