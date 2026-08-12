@@ -1,6 +1,6 @@
 # welcome to my website!
 
-use this link to visit: https://fiona-xuu.github.io/personal-website/
+use this link to visit: https://fionaxu.com
 
 built with:
 - react
